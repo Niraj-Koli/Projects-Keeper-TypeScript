@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;1,1;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Ysabeau Office", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+input,
+textarea {
+    font: inherit;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.6rem;
+    width: 100%;
+    max-width: 30rem;
+    border: 0.063rem solid #00203f;
+    border-radius: 0.4rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    background: #fff5f9;
+}
+
+.button-control {
+    text-align: center;
+}
+
+button {
+    font: inherit;
+    font-weight: bold;
+    background: #00203f;
+    border: 0.063rem solid #00203f;
+    cursor: pointer;
+    color: white;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    background: #ff7f50;
+    border-color: #ff7f50;
+}
+
+#user-input {
+    margin: 2rem auto;
+    padding: 1rem 1.7rem;
+    max-width: 35%;
+    border: 0.063rem solid #00203f;
+    border-radius: 1rem;
+    background: #adefd1;
+}
+
+.projects {
+    margin: 2rem auto;
+    border: 0.063rem solid #ff7f50;
+    max-width: 70%;
+}
+
+.projects header {
+    background: #ff7f50;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#finished-projects {
+    border-color: #00203f;
+}
+
+#finished-projects header {
+    background: #00203f;
+}
+
+.projects h2 {
+    margin: 0;
+    color: white;
+}
+
+.projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.projects li {
+    box-shadow: 0.063rem 0.063rem 0.5rem rgba(0, 0, 0, 0.26);
+    padding: 1rem;
+    margin: 2rem;
+    background: white;
+}
+
+.projects li h2 {
+    color: #ff7f50;
+    margin: 0.5rem 0;
+    font-size: 2rem;
+}
+
+#finished-projects li h2 {
+    color: #00203f;
+}
+
+.projects li h3 {
+    font-size: 1.3rem;
+}
+
+.project li p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.droppable {
+    background: #faded4;
+}
+
+#finished-projects .droppable {
+    background: #d6e1ff;
+}
